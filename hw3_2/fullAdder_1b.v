@@ -10,6 +10,16 @@ module fullAdder_1b(A, B, C_in, S, C_out);
     output S;
     output C_out;
 
+	wire w_a_xor_b, w_nand_a_b, w_nand_cin;
+
     // YOUR CODE HERE
+	//S output
+	xor xor_a_b(.in1(A), .in2(B), .out(w_a_xor_b));
+	xor xor_cin_a_b(.in1(C_in), .in2(w_a_xor_b), .out(S));
+
+	//C_out output
+	nand2 nand_a_b(.in1(A), .in2(B), .out(w_nand_a_b));
+	nand2 nand_cin_a_xor_b(.in1(w_a_xor_b), .in2(C_in), .out(w_nand_cin));
+	nand2 nand_out(.in1(w_nand_a_b), .in2(w_nand_cin), .out(C_out));
 
 endmodule
