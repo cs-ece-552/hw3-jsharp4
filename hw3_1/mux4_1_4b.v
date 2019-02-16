@@ -16,8 +16,8 @@ module mux4_1_4b(InA, InB, InC, InD, S, Out);
     // YOUR CODE HERE
 	genvar i;
 	generate
-	for (i = 0; i < N; ++i) begin
-		mux4_1 mux_1_b(.S(S), .InA(InA[N]), .InB(InB[N]), .InC(InC[N]), .InD(InD[N]), .Out(Out[N]));
+	for (i = 0; i < N; i = i + 1) begin
+		mux4_1 mux_1_b(.S(S[1:0]), .InA(InA[i]), .InB(InB[i]), .InC(InC[i]), .InD(InD[i]), .Out(Out[i]));
 	end
 	endgenerate
 
