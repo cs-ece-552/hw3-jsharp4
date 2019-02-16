@@ -1,5 +1,5 @@
 $date
-	Fri Feb 15 21:07:59 2019
+	Fri Feb 15 21:13:07 2019
 $end
 $version
 	ModelSim Version 10.7c
@@ -118,181 +118,173 @@ $var wire 1 c c_out [0] $end
 $var wire 1 d c_out [1] $end
 $var wire 1 e c_out [2] $end
 
-$scope begin genblk1[2] $end
-$var parameter 32 f i $end
-
-$scope module adder_1b $end
-$var wire 1 K A $end
-$var wire 1 [ B $end
-$var wire 1 d C_in $end
-$var wire 1 2 S $end
-$var wire 1 c C_out $end
-$var wire 1 g w_a_xor_b $end
-$var wire 1 h w_nand_a_b $end
-$var wire 1 i w_nand_cin $end
-
-$scope module xor_a_b $end
-$var wire 1 K in1 $end
-$var wire 1 [ in2 $end
-$var wire 1 g out $end
-$upscope $end
-
-$scope module xor_cin_a_b $end
-$var wire 1 d in1 $end
-$var wire 1 g in2 $end
-$var wire 1 2 out $end
-$upscope $end
-
-$scope module nand_a_b $end
-$var wire 1 K in1 $end
-$var wire 1 [ in2 $end
-$var wire 1 h out $end
-$upscope $end
-
-$scope module nand_cin_a_xor_b $end
-$var wire 1 g in1 $end
-$var wire 1 d in2 $end
-$var wire 1 i out $end
-$upscope $end
-
-$scope module nand_out $end
-$var wire 1 h in1 $end
-$var wire 1 i in2 $end
-$var wire 1 c out $end
-$upscope $end
-$upscope $end
-$upscope $end
-
-$scope begin genblk1[1] $end
-$var parameter 32 j i $end
-
-$scope module adder_1b $end
-$var wire 1 L A $end
-$var wire 1 \ B $end
-$var wire 1 e C_in $end
-$var wire 1 3 S $end
-$var wire 1 d C_out $end
-$var wire 1 k w_a_xor_b $end
-$var wire 1 l w_nand_a_b $end
-$var wire 1 m w_nand_cin $end
-
-$scope module xor_a_b $end
-$var wire 1 L in1 $end
-$var wire 1 \ in2 $end
-$var wire 1 k out $end
-$upscope $end
-
-$scope module xor_cin_a_b $end
-$var wire 1 e in1 $end
-$var wire 1 k in2 $end
-$var wire 1 3 out $end
-$upscope $end
-
-$scope module nand_a_b $end
-$var wire 1 L in1 $end
-$var wire 1 \ in2 $end
-$var wire 1 l out $end
-$upscope $end
-
-$scope module nand_cin_a_xor_b $end
-$var wire 1 k in1 $end
-$var wire 1 e in2 $end
-$var wire 1 m out $end
-$upscope $end
-
-$scope module nand_out $end
-$var wire 1 l in1 $end
-$var wire 1 m in2 $end
-$var wire 1 d out $end
-$upscope $end
-$upscope $end
-$upscope $end
-
 $scope module adder_1b_0 $end
 $var wire 1 M A $end
 $var wire 1 ] B $end
 $var wire 1 ^ C_in $end
 $var wire 1 4 S $end
 $var wire 1 e C_out $end
-$var wire 1 n w_a_xor_b $end
-$var wire 1 o w_nand_a_b $end
-$var wire 1 p w_nand_cin $end
+$var wire 1 f w_a_xor_b $end
+$var wire 1 g w_nand_a_b $end
+$var wire 1 h w_nand_cin $end
 
 $scope module xor_a_b $end
 $var wire 1 M in1 $end
 $var wire 1 ] in2 $end
-$var wire 1 n out $end
+$var wire 1 f out $end
 $upscope $end
 
 $scope module xor_cin_a_b $end
 $var wire 1 ^ in1 $end
-$var wire 1 n in2 $end
+$var wire 1 f in2 $end
 $var wire 1 4 out $end
 $upscope $end
 
 $scope module nand_a_b $end
 $var wire 1 M in1 $end
 $var wire 1 ] in2 $end
-$var wire 1 o out $end
+$var wire 1 g out $end
 $upscope $end
 
 $scope module nand_cin_a_xor_b $end
-$var wire 1 n in1 $end
+$var wire 1 f in1 $end
 $var wire 1 ^ in2 $end
-$var wire 1 p out $end
+$var wire 1 h out $end
 $upscope $end
 
 $scope module nand_out $end
-$var wire 1 o in1 $end
-$var wire 1 p in2 $end
+$var wire 1 g in1 $end
+$var wire 1 h in2 $end
 $var wire 1 e out $end
 $upscope $end
 $upscope $end
 
-$scope module adder_0 $end
+$scope module adder_1b_1 $end
+$var wire 1 L A $end
+$var wire 1 \ B $end
+$var wire 1 e C_in $end
+$var wire 1 3 S $end
+$var wire 1 d C_out $end
+$var wire 1 i w_a_xor_b $end
+$var wire 1 j w_nand_a_b $end
+$var wire 1 k w_nand_cin $end
+
+$scope module xor_a_b $end
+$var wire 1 L in1 $end
+$var wire 1 \ in2 $end
+$var wire 1 i out $end
+$upscope $end
+
+$scope module xor_cin_a_b $end
+$var wire 1 e in1 $end
+$var wire 1 i in2 $end
+$var wire 1 3 out $end
+$upscope $end
+
+$scope module nand_a_b $end
+$var wire 1 L in1 $end
+$var wire 1 \ in2 $end
+$var wire 1 j out $end
+$upscope $end
+
+$scope module nand_cin_a_xor_b $end
+$var wire 1 i in1 $end
+$var wire 1 e in2 $end
+$var wire 1 k out $end
+$upscope $end
+
+$scope module nand_out $end
+$var wire 1 j in1 $end
+$var wire 1 k in2 $end
+$var wire 1 d out $end
+$upscope $end
+$upscope $end
+
+$scope module adder_1b_2 $end
+$var wire 1 K A $end
+$var wire 1 [ B $end
+$var wire 1 d C_in $end
+$var wire 1 2 S $end
+$var wire 1 c C_out $end
+$var wire 1 l w_a_xor_b $end
+$var wire 1 m w_nand_a_b $end
+$var wire 1 n w_nand_cin $end
+
+$scope module xor_a_b $end
+$var wire 1 K in1 $end
+$var wire 1 [ in2 $end
+$var wire 1 l out $end
+$upscope $end
+
+$scope module xor_cin_a_b $end
+$var wire 1 d in1 $end
+$var wire 1 l in2 $end
+$var wire 1 2 out $end
+$upscope $end
+
+$scope module nand_a_b $end
+$var wire 1 K in1 $end
+$var wire 1 [ in2 $end
+$var wire 1 m out $end
+$upscope $end
+
+$scope module nand_cin_a_xor_b $end
+$var wire 1 l in1 $end
+$var wire 1 d in2 $end
+$var wire 1 n out $end
+$upscope $end
+
+$scope module nand_out $end
+$var wire 1 m in1 $end
+$var wire 1 n in2 $end
+$var wire 1 c out $end
+$upscope $end
+$upscope $end
+
+$scope module adder_1b_3 $end
 $var wire 1 J A $end
 $var wire 1 Z B $end
 $var wire 1 c C_in $end
 $var wire 1 1 S $end
 $var wire 1 a C_out $end
-$var wire 1 q w_a_xor_b $end
-$var wire 1 r w_nand_a_b $end
-$var wire 1 s w_nand_cin $end
+$var wire 1 o w_a_xor_b $end
+$var wire 1 p w_nand_a_b $end
+$var wire 1 q w_nand_cin $end
 
 $scope module xor_a_b $end
 $var wire 1 J in1 $end
 $var wire 1 Z in2 $end
-$var wire 1 q out $end
+$var wire 1 o out $end
 $upscope $end
 
 $scope module xor_cin_a_b $end
 $var wire 1 c in1 $end
-$var wire 1 q in2 $end
+$var wire 1 o in2 $end
 $var wire 1 1 out $end
 $upscope $end
 
 $scope module nand_a_b $end
 $var wire 1 J in1 $end
 $var wire 1 Z in2 $end
-$var wire 1 r out $end
+$var wire 1 p out $end
 $upscope $end
 
 $scope module nand_cin_a_xor_b $end
-$var wire 1 q in1 $end
+$var wire 1 o in1 $end
 $var wire 1 c in2 $end
-$var wire 1 s out $end
+$var wire 1 q out $end
 $upscope $end
 
 $scope module nand_out $end
-$var wire 1 r in1 $end
-$var wire 1 s in2 $end
+$var wire 1 p in1 $end
+$var wire 1 q in2 $end
 $var wire 1 a out $end
 $upscope $end
 $upscope $end
 $upscope $end
 
 $scope module rca_lsb_1_4 $end
-$var parameter 32 t N $end
+$var parameter 32 r N $end
 $var wire 1 F A [3] $end
 $var wire 1 G A [2] $end
 $var wire 1 H A [1] $end
@@ -307,185 +299,177 @@ $var wire 1 . S [2] $end
 $var wire 1 / S [1] $end
 $var wire 1 0 S [0] $end
 $var wire 1 ` C_out $end
-$var wire 1 u c_out [0] $end
-$var wire 1 v c_out [1] $end
-$var wire 1 w c_out [2] $end
-
-$scope begin genblk1[2] $end
-$var parameter 32 x i $end
-
-$scope module adder_1b $end
-$var wire 1 G A $end
-$var wire 1 W B $end
-$var wire 1 v C_in $end
-$var wire 1 . S $end
-$var wire 1 u C_out $end
-$var wire 1 y w_a_xor_b $end
-$var wire 1 z w_nand_a_b $end
-$var wire 1 { w_nand_cin $end
-
-$scope module xor_a_b $end
-$var wire 1 G in1 $end
-$var wire 1 W in2 $end
-$var wire 1 y out $end
-$upscope $end
-
-$scope module xor_cin_a_b $end
-$var wire 1 v in1 $end
-$var wire 1 y in2 $end
-$var wire 1 . out $end
-$upscope $end
-
-$scope module nand_a_b $end
-$var wire 1 G in1 $end
-$var wire 1 W in2 $end
-$var wire 1 z out $end
-$upscope $end
-
-$scope module nand_cin_a_xor_b $end
-$var wire 1 y in1 $end
-$var wire 1 v in2 $end
-$var wire 1 { out $end
-$upscope $end
-
-$scope module nand_out $end
-$var wire 1 z in1 $end
-$var wire 1 { in2 $end
-$var wire 1 u out $end
-$upscope $end
-$upscope $end
-$upscope $end
-
-$scope begin genblk1[1] $end
-$var parameter 32 | i $end
-
-$scope module adder_1b $end
-$var wire 1 H A $end
-$var wire 1 X B $end
-$var wire 1 w C_in $end
-$var wire 1 / S $end
-$var wire 1 v C_out $end
-$var wire 1 } w_a_xor_b $end
-$var wire 1 ~ w_nand_a_b $end
-$var wire 1 !! w_nand_cin $end
-
-$scope module xor_a_b $end
-$var wire 1 H in1 $end
-$var wire 1 X in2 $end
-$var wire 1 } out $end
-$upscope $end
-
-$scope module xor_cin_a_b $end
-$var wire 1 w in1 $end
-$var wire 1 } in2 $end
-$var wire 1 / out $end
-$upscope $end
-
-$scope module nand_a_b $end
-$var wire 1 H in1 $end
-$var wire 1 X in2 $end
-$var wire 1 ~ out $end
-$upscope $end
-
-$scope module nand_cin_a_xor_b $end
-$var wire 1 } in1 $end
-$var wire 1 w in2 $end
-$var wire 1 !! out $end
-$upscope $end
-
-$scope module nand_out $end
-$var wire 1 ~ in1 $end
-$var wire 1 !! in2 $end
-$var wire 1 v out $end
-$upscope $end
-$upscope $end
-$upscope $end
+$var wire 1 s c_out [0] $end
+$var wire 1 t c_out [1] $end
+$var wire 1 u c_out [2] $end
 
 $scope module adder_1b_0 $end
 $var wire 1 I A $end
 $var wire 1 Y B $end
 $var wire 1 a C_in $end
 $var wire 1 0 S $end
-$var wire 1 w C_out $end
-$var wire 1 "! w_a_xor_b $end
-$var wire 1 #! w_nand_a_b $end
-$var wire 1 $! w_nand_cin $end
+$var wire 1 u C_out $end
+$var wire 1 v w_a_xor_b $end
+$var wire 1 w w_nand_a_b $end
+$var wire 1 x w_nand_cin $end
 
 $scope module xor_a_b $end
 $var wire 1 I in1 $end
 $var wire 1 Y in2 $end
-$var wire 1 "! out $end
+$var wire 1 v out $end
 $upscope $end
 
 $scope module xor_cin_a_b $end
 $var wire 1 a in1 $end
-$var wire 1 "! in2 $end
+$var wire 1 v in2 $end
 $var wire 1 0 out $end
 $upscope $end
 
 $scope module nand_a_b $end
 $var wire 1 I in1 $end
 $var wire 1 Y in2 $end
-$var wire 1 #! out $end
+$var wire 1 w out $end
 $upscope $end
 
 $scope module nand_cin_a_xor_b $end
-$var wire 1 "! in1 $end
+$var wire 1 v in1 $end
 $var wire 1 a in2 $end
-$var wire 1 $! out $end
+$var wire 1 x out $end
 $upscope $end
 
 $scope module nand_out $end
-$var wire 1 #! in1 $end
-$var wire 1 $! in2 $end
-$var wire 1 w out $end
+$var wire 1 w in1 $end
+$var wire 1 x in2 $end
+$var wire 1 u out $end
 $upscope $end
 $upscope $end
 
-$scope module adder_0 $end
-$var wire 1 F A $end
-$var wire 1 V B $end
+$scope module adder_1b_1 $end
+$var wire 1 H A $end
+$var wire 1 X B $end
 $var wire 1 u C_in $end
-$var wire 1 - S $end
-$var wire 1 ` C_out $end
-$var wire 1 %! w_a_xor_b $end
-$var wire 1 &! w_nand_a_b $end
-$var wire 1 '! w_nand_cin $end
+$var wire 1 / S $end
+$var wire 1 t C_out $end
+$var wire 1 y w_a_xor_b $end
+$var wire 1 z w_nand_a_b $end
+$var wire 1 { w_nand_cin $end
 
 $scope module xor_a_b $end
-$var wire 1 F in1 $end
-$var wire 1 V in2 $end
-$var wire 1 %! out $end
+$var wire 1 H in1 $end
+$var wire 1 X in2 $end
+$var wire 1 y out $end
 $upscope $end
 
 $scope module xor_cin_a_b $end
 $var wire 1 u in1 $end
-$var wire 1 %! in2 $end
+$var wire 1 y in2 $end
+$var wire 1 / out $end
+$upscope $end
+
+$scope module nand_a_b $end
+$var wire 1 H in1 $end
+$var wire 1 X in2 $end
+$var wire 1 z out $end
+$upscope $end
+
+$scope module nand_cin_a_xor_b $end
+$var wire 1 y in1 $end
+$var wire 1 u in2 $end
+$var wire 1 { out $end
+$upscope $end
+
+$scope module nand_out $end
+$var wire 1 z in1 $end
+$var wire 1 { in2 $end
+$var wire 1 t out $end
+$upscope $end
+$upscope $end
+
+$scope module adder_1b_2 $end
+$var wire 1 G A $end
+$var wire 1 W B $end
+$var wire 1 t C_in $end
+$var wire 1 . S $end
+$var wire 1 s C_out $end
+$var wire 1 | w_a_xor_b $end
+$var wire 1 } w_nand_a_b $end
+$var wire 1 ~ w_nand_cin $end
+
+$scope module xor_a_b $end
+$var wire 1 G in1 $end
+$var wire 1 W in2 $end
+$var wire 1 | out $end
+$upscope $end
+
+$scope module xor_cin_a_b $end
+$var wire 1 t in1 $end
+$var wire 1 | in2 $end
+$var wire 1 . out $end
+$upscope $end
+
+$scope module nand_a_b $end
+$var wire 1 G in1 $end
+$var wire 1 W in2 $end
+$var wire 1 } out $end
+$upscope $end
+
+$scope module nand_cin_a_xor_b $end
+$var wire 1 | in1 $end
+$var wire 1 t in2 $end
+$var wire 1 ~ out $end
+$upscope $end
+
+$scope module nand_out $end
+$var wire 1 } in1 $end
+$var wire 1 ~ in2 $end
+$var wire 1 s out $end
+$upscope $end
+$upscope $end
+
+$scope module adder_1b_3 $end
+$var wire 1 F A $end
+$var wire 1 V B $end
+$var wire 1 s C_in $end
+$var wire 1 - S $end
+$var wire 1 ` C_out $end
+$var wire 1 !! w_a_xor_b $end
+$var wire 1 "! w_nand_a_b $end
+$var wire 1 #! w_nand_cin $end
+
+$scope module xor_a_b $end
+$var wire 1 F in1 $end
+$var wire 1 V in2 $end
+$var wire 1 !! out $end
+$upscope $end
+
+$scope module xor_cin_a_b $end
+$var wire 1 s in1 $end
+$var wire 1 !! in2 $end
 $var wire 1 - out $end
 $upscope $end
 
 $scope module nand_a_b $end
 $var wire 1 F in1 $end
 $var wire 1 V in2 $end
-$var wire 1 &! out $end
+$var wire 1 "! out $end
 $upscope $end
 
 $scope module nand_cin_a_xor_b $end
-$var wire 1 %! in1 $end
-$var wire 1 u in2 $end
-$var wire 1 '! out $end
+$var wire 1 !! in1 $end
+$var wire 1 s in2 $end
+$var wire 1 #! out $end
 $upscope $end
 
 $scope module nand_out $end
-$var wire 1 &! in1 $end
-$var wire 1 '! in2 $end
+$var wire 1 "! in1 $end
+$var wire 1 #! in2 $end
 $var wire 1 ` out $end
 $upscope $end
 $upscope $end
 $upscope $end
 
 $scope module rca_lsb_2_4 $end
-$var parameter 32 (! N $end
+$var parameter 32 $! N $end
 $var wire 1 B A [3] $end
 $var wire 1 C A [2] $end
 $var wire 1 D A [1] $end
@@ -500,185 +484,177 @@ $var wire 1 * S [2] $end
 $var wire 1 + S [1] $end
 $var wire 1 , S [0] $end
 $var wire 1 _ C_out $end
-$var wire 1 )! c_out [0] $end
-$var wire 1 *! c_out [1] $end
-$var wire 1 +! c_out [2] $end
-
-$scope begin genblk1[2] $end
-$var parameter 32 ,! i $end
-
-$scope module adder_1b $end
-$var wire 1 C A $end
-$var wire 1 S B $end
-$var wire 1 *! C_in $end
-$var wire 1 * S $end
-$var wire 1 )! C_out $end
-$var wire 1 -! w_a_xor_b $end
-$var wire 1 .! w_nand_a_b $end
-$var wire 1 /! w_nand_cin $end
-
-$scope module xor_a_b $end
-$var wire 1 C in1 $end
-$var wire 1 S in2 $end
-$var wire 1 -! out $end
-$upscope $end
-
-$scope module xor_cin_a_b $end
-$var wire 1 *! in1 $end
-$var wire 1 -! in2 $end
-$var wire 1 * out $end
-$upscope $end
-
-$scope module nand_a_b $end
-$var wire 1 C in1 $end
-$var wire 1 S in2 $end
-$var wire 1 .! out $end
-$upscope $end
-
-$scope module nand_cin_a_xor_b $end
-$var wire 1 -! in1 $end
-$var wire 1 *! in2 $end
-$var wire 1 /! out $end
-$upscope $end
-
-$scope module nand_out $end
-$var wire 1 .! in1 $end
-$var wire 1 /! in2 $end
-$var wire 1 )! out $end
-$upscope $end
-$upscope $end
-$upscope $end
-
-$scope begin genblk1[1] $end
-$var parameter 32 0! i $end
-
-$scope module adder_1b $end
-$var wire 1 D A $end
-$var wire 1 T B $end
-$var wire 1 +! C_in $end
-$var wire 1 + S $end
-$var wire 1 *! C_out $end
-$var wire 1 1! w_a_xor_b $end
-$var wire 1 2! w_nand_a_b $end
-$var wire 1 3! w_nand_cin $end
-
-$scope module xor_a_b $end
-$var wire 1 D in1 $end
-$var wire 1 T in2 $end
-$var wire 1 1! out $end
-$upscope $end
-
-$scope module xor_cin_a_b $end
-$var wire 1 +! in1 $end
-$var wire 1 1! in2 $end
-$var wire 1 + out $end
-$upscope $end
-
-$scope module nand_a_b $end
-$var wire 1 D in1 $end
-$var wire 1 T in2 $end
-$var wire 1 2! out $end
-$upscope $end
-
-$scope module nand_cin_a_xor_b $end
-$var wire 1 1! in1 $end
-$var wire 1 +! in2 $end
-$var wire 1 3! out $end
-$upscope $end
-
-$scope module nand_out $end
-$var wire 1 2! in1 $end
-$var wire 1 3! in2 $end
-$var wire 1 *! out $end
-$upscope $end
-$upscope $end
-$upscope $end
+$var wire 1 %! c_out [0] $end
+$var wire 1 &! c_out [1] $end
+$var wire 1 '! c_out [2] $end
 
 $scope module adder_1b_0 $end
 $var wire 1 E A $end
 $var wire 1 U B $end
 $var wire 1 ` C_in $end
 $var wire 1 , S $end
-$var wire 1 +! C_out $end
-$var wire 1 4! w_a_xor_b $end
-$var wire 1 5! w_nand_a_b $end
-$var wire 1 6! w_nand_cin $end
+$var wire 1 '! C_out $end
+$var wire 1 (! w_a_xor_b $end
+$var wire 1 )! w_nand_a_b $end
+$var wire 1 *! w_nand_cin $end
 
 $scope module xor_a_b $end
 $var wire 1 E in1 $end
 $var wire 1 U in2 $end
-$var wire 1 4! out $end
+$var wire 1 (! out $end
 $upscope $end
 
 $scope module xor_cin_a_b $end
 $var wire 1 ` in1 $end
-$var wire 1 4! in2 $end
+$var wire 1 (! in2 $end
 $var wire 1 , out $end
 $upscope $end
 
 $scope module nand_a_b $end
 $var wire 1 E in1 $end
 $var wire 1 U in2 $end
-$var wire 1 5! out $end
+$var wire 1 )! out $end
 $upscope $end
 
 $scope module nand_cin_a_xor_b $end
-$var wire 1 4! in1 $end
+$var wire 1 (! in1 $end
 $var wire 1 ` in2 $end
-$var wire 1 6! out $end
+$var wire 1 *! out $end
 $upscope $end
 
 $scope module nand_out $end
-$var wire 1 5! in1 $end
-$var wire 1 6! in2 $end
-$var wire 1 +! out $end
+$var wire 1 )! in1 $end
+$var wire 1 *! in2 $end
+$var wire 1 '! out $end
 $upscope $end
 $upscope $end
 
-$scope module adder_0 $end
+$scope module adder_1b_1 $end
+$var wire 1 D A $end
+$var wire 1 T B $end
+$var wire 1 '! C_in $end
+$var wire 1 + S $end
+$var wire 1 &! C_out $end
+$var wire 1 +! w_a_xor_b $end
+$var wire 1 ,! w_nand_a_b $end
+$var wire 1 -! w_nand_cin $end
+
+$scope module xor_a_b $end
+$var wire 1 D in1 $end
+$var wire 1 T in2 $end
+$var wire 1 +! out $end
+$upscope $end
+
+$scope module xor_cin_a_b $end
+$var wire 1 '! in1 $end
+$var wire 1 +! in2 $end
+$var wire 1 + out $end
+$upscope $end
+
+$scope module nand_a_b $end
+$var wire 1 D in1 $end
+$var wire 1 T in2 $end
+$var wire 1 ,! out $end
+$upscope $end
+
+$scope module nand_cin_a_xor_b $end
+$var wire 1 +! in1 $end
+$var wire 1 '! in2 $end
+$var wire 1 -! out $end
+$upscope $end
+
+$scope module nand_out $end
+$var wire 1 ,! in1 $end
+$var wire 1 -! in2 $end
+$var wire 1 &! out $end
+$upscope $end
+$upscope $end
+
+$scope module adder_1b_2 $end
+$var wire 1 C A $end
+$var wire 1 S B $end
+$var wire 1 &! C_in $end
+$var wire 1 * S $end
+$var wire 1 %! C_out $end
+$var wire 1 .! w_a_xor_b $end
+$var wire 1 /! w_nand_a_b $end
+$var wire 1 0! w_nand_cin $end
+
+$scope module xor_a_b $end
+$var wire 1 C in1 $end
+$var wire 1 S in2 $end
+$var wire 1 .! out $end
+$upscope $end
+
+$scope module xor_cin_a_b $end
+$var wire 1 &! in1 $end
+$var wire 1 .! in2 $end
+$var wire 1 * out $end
+$upscope $end
+
+$scope module nand_a_b $end
+$var wire 1 C in1 $end
+$var wire 1 S in2 $end
+$var wire 1 /! out $end
+$upscope $end
+
+$scope module nand_cin_a_xor_b $end
+$var wire 1 .! in1 $end
+$var wire 1 &! in2 $end
+$var wire 1 0! out $end
+$upscope $end
+
+$scope module nand_out $end
+$var wire 1 /! in1 $end
+$var wire 1 0! in2 $end
+$var wire 1 %! out $end
+$upscope $end
+$upscope $end
+
+$scope module adder_1b_3 $end
 $var wire 1 B A $end
 $var wire 1 R B $end
-$var wire 1 )! C_in $end
+$var wire 1 %! C_in $end
 $var wire 1 ) S $end
 $var wire 1 _ C_out $end
-$var wire 1 7! w_a_xor_b $end
-$var wire 1 8! w_nand_a_b $end
-$var wire 1 9! w_nand_cin $end
+$var wire 1 1! w_a_xor_b $end
+$var wire 1 2! w_nand_a_b $end
+$var wire 1 3! w_nand_cin $end
 
 $scope module xor_a_b $end
 $var wire 1 B in1 $end
 $var wire 1 R in2 $end
-$var wire 1 7! out $end
+$var wire 1 1! out $end
 $upscope $end
 
 $scope module xor_cin_a_b $end
-$var wire 1 )! in1 $end
-$var wire 1 7! in2 $end
+$var wire 1 %! in1 $end
+$var wire 1 1! in2 $end
 $var wire 1 ) out $end
 $upscope $end
 
 $scope module nand_a_b $end
 $var wire 1 B in1 $end
 $var wire 1 R in2 $end
-$var wire 1 8! out $end
+$var wire 1 2! out $end
 $upscope $end
 
 $scope module nand_cin_a_xor_b $end
-$var wire 1 7! in1 $end
-$var wire 1 )! in2 $end
-$var wire 1 9! out $end
+$var wire 1 1! in1 $end
+$var wire 1 %! in2 $end
+$var wire 1 3! out $end
 $upscope $end
 
 $scope module nand_out $end
-$var wire 1 8! in1 $end
-$var wire 1 9! in2 $end
+$var wire 1 2! in1 $end
+$var wire 1 3! in2 $end
 $var wire 1 _ out $end
 $upscope $end
 $upscope $end
 $upscope $end
 
 $scope module rca_msb_4 $end
-$var parameter 32 :! N $end
+$var parameter 32 4! N $end
 $var wire 1 > A [3] $end
 $var wire 1 ? A [2] $end
 $var wire 1 @ A [1] $end
@@ -693,178 +669,170 @@ $var wire 1 & S [2] $end
 $var wire 1 ' S [1] $end
 $var wire 1 ( S [0] $end
 $var wire 1 5 C_out $end
-$var wire 1 ;! c_out [0] $end
-$var wire 1 <! c_out [1] $end
-$var wire 1 =! c_out [2] $end
-
-$scope begin genblk1[2] $end
-$var parameter 32 >! i $end
-
-$scope module adder_1b $end
-$var wire 1 ? A $end
-$var wire 1 O B $end
-$var wire 1 <! C_in $end
-$var wire 1 & S $end
-$var wire 1 ;! C_out $end
-$var wire 1 ?! w_a_xor_b $end
-$var wire 1 @! w_nand_a_b $end
-$var wire 1 A! w_nand_cin $end
-
-$scope module xor_a_b $end
-$var wire 1 ? in1 $end
-$var wire 1 O in2 $end
-$var wire 1 ?! out $end
-$upscope $end
-
-$scope module xor_cin_a_b $end
-$var wire 1 <! in1 $end
-$var wire 1 ?! in2 $end
-$var wire 1 & out $end
-$upscope $end
-
-$scope module nand_a_b $end
-$var wire 1 ? in1 $end
-$var wire 1 O in2 $end
-$var wire 1 @! out $end
-$upscope $end
-
-$scope module nand_cin_a_xor_b $end
-$var wire 1 ?! in1 $end
-$var wire 1 <! in2 $end
-$var wire 1 A! out $end
-$upscope $end
-
-$scope module nand_out $end
-$var wire 1 @! in1 $end
-$var wire 1 A! in2 $end
-$var wire 1 ;! out $end
-$upscope $end
-$upscope $end
-$upscope $end
-
-$scope begin genblk1[1] $end
-$var parameter 32 B! i $end
-
-$scope module adder_1b $end
-$var wire 1 @ A $end
-$var wire 1 P B $end
-$var wire 1 =! C_in $end
-$var wire 1 ' S $end
-$var wire 1 <! C_out $end
-$var wire 1 C! w_a_xor_b $end
-$var wire 1 D! w_nand_a_b $end
-$var wire 1 E! w_nand_cin $end
-
-$scope module xor_a_b $end
-$var wire 1 @ in1 $end
-$var wire 1 P in2 $end
-$var wire 1 C! out $end
-$upscope $end
-
-$scope module xor_cin_a_b $end
-$var wire 1 =! in1 $end
-$var wire 1 C! in2 $end
-$var wire 1 ' out $end
-$upscope $end
-
-$scope module nand_a_b $end
-$var wire 1 @ in1 $end
-$var wire 1 P in2 $end
-$var wire 1 D! out $end
-$upscope $end
-
-$scope module nand_cin_a_xor_b $end
-$var wire 1 C! in1 $end
-$var wire 1 =! in2 $end
-$var wire 1 E! out $end
-$upscope $end
-
-$scope module nand_out $end
-$var wire 1 D! in1 $end
-$var wire 1 E! in2 $end
-$var wire 1 <! out $end
-$upscope $end
-$upscope $end
-$upscope $end
+$var wire 1 5! c_out [0] $end
+$var wire 1 6! c_out [1] $end
+$var wire 1 7! c_out [2] $end
 
 $scope module adder_1b_0 $end
 $var wire 1 A A $end
 $var wire 1 Q B $end
 $var wire 1 _ C_in $end
 $var wire 1 ( S $end
-$var wire 1 =! C_out $end
-$var wire 1 F! w_a_xor_b $end
-$var wire 1 G! w_nand_a_b $end
-$var wire 1 H! w_nand_cin $end
+$var wire 1 7! C_out $end
+$var wire 1 8! w_a_xor_b $end
+$var wire 1 9! w_nand_a_b $end
+$var wire 1 :! w_nand_cin $end
 
 $scope module xor_a_b $end
 $var wire 1 A in1 $end
 $var wire 1 Q in2 $end
-$var wire 1 F! out $end
+$var wire 1 8! out $end
 $upscope $end
 
 $scope module xor_cin_a_b $end
 $var wire 1 _ in1 $end
-$var wire 1 F! in2 $end
+$var wire 1 8! in2 $end
 $var wire 1 ( out $end
 $upscope $end
 
 $scope module nand_a_b $end
 $var wire 1 A in1 $end
 $var wire 1 Q in2 $end
-$var wire 1 G! out $end
+$var wire 1 9! out $end
 $upscope $end
 
 $scope module nand_cin_a_xor_b $end
-$var wire 1 F! in1 $end
+$var wire 1 8! in1 $end
 $var wire 1 _ in2 $end
-$var wire 1 H! out $end
+$var wire 1 :! out $end
 $upscope $end
 
 $scope module nand_out $end
-$var wire 1 G! in1 $end
-$var wire 1 H! in2 $end
-$var wire 1 =! out $end
+$var wire 1 9! in1 $end
+$var wire 1 :! in2 $end
+$var wire 1 7! out $end
 $upscope $end
 $upscope $end
 
-$scope module adder_0 $end
+$scope module adder_1b_1 $end
+$var wire 1 @ A $end
+$var wire 1 P B $end
+$var wire 1 7! C_in $end
+$var wire 1 ' S $end
+$var wire 1 6! C_out $end
+$var wire 1 ;! w_a_xor_b $end
+$var wire 1 <! w_nand_a_b $end
+$var wire 1 =! w_nand_cin $end
+
+$scope module xor_a_b $end
+$var wire 1 @ in1 $end
+$var wire 1 P in2 $end
+$var wire 1 ;! out $end
+$upscope $end
+
+$scope module xor_cin_a_b $end
+$var wire 1 7! in1 $end
+$var wire 1 ;! in2 $end
+$var wire 1 ' out $end
+$upscope $end
+
+$scope module nand_a_b $end
+$var wire 1 @ in1 $end
+$var wire 1 P in2 $end
+$var wire 1 <! out $end
+$upscope $end
+
+$scope module nand_cin_a_xor_b $end
+$var wire 1 ;! in1 $end
+$var wire 1 7! in2 $end
+$var wire 1 =! out $end
+$upscope $end
+
+$scope module nand_out $end
+$var wire 1 <! in1 $end
+$var wire 1 =! in2 $end
+$var wire 1 6! out $end
+$upscope $end
+$upscope $end
+
+$scope module adder_1b_2 $end
+$var wire 1 ? A $end
+$var wire 1 O B $end
+$var wire 1 6! C_in $end
+$var wire 1 & S $end
+$var wire 1 5! C_out $end
+$var wire 1 >! w_a_xor_b $end
+$var wire 1 ?! w_nand_a_b $end
+$var wire 1 @! w_nand_cin $end
+
+$scope module xor_a_b $end
+$var wire 1 ? in1 $end
+$var wire 1 O in2 $end
+$var wire 1 >! out $end
+$upscope $end
+
+$scope module xor_cin_a_b $end
+$var wire 1 6! in1 $end
+$var wire 1 >! in2 $end
+$var wire 1 & out $end
+$upscope $end
+
+$scope module nand_a_b $end
+$var wire 1 ? in1 $end
+$var wire 1 O in2 $end
+$var wire 1 ?! out $end
+$upscope $end
+
+$scope module nand_cin_a_xor_b $end
+$var wire 1 >! in1 $end
+$var wire 1 6! in2 $end
+$var wire 1 @! out $end
+$upscope $end
+
+$scope module nand_out $end
+$var wire 1 ?! in1 $end
+$var wire 1 @! in2 $end
+$var wire 1 5! out $end
+$upscope $end
+$upscope $end
+
+$scope module adder_1b_3 $end
 $var wire 1 > A $end
 $var wire 1 N B $end
-$var wire 1 ;! C_in $end
+$var wire 1 5! C_in $end
 $var wire 1 % S $end
 $var wire 1 5 C_out $end
-$var wire 1 I! w_a_xor_b $end
-$var wire 1 J! w_nand_a_b $end
-$var wire 1 K! w_nand_cin $end
+$var wire 1 A! w_a_xor_b $end
+$var wire 1 B! w_nand_a_b $end
+$var wire 1 C! w_nand_cin $end
 
 $scope module xor_a_b $end
 $var wire 1 > in1 $end
 $var wire 1 N in2 $end
-$var wire 1 I! out $end
+$var wire 1 A! out $end
 $upscope $end
 
 $scope module xor_cin_a_b $end
-$var wire 1 ;! in1 $end
-$var wire 1 I! in2 $end
+$var wire 1 5! in1 $end
+$var wire 1 A! in2 $end
 $var wire 1 % out $end
 $upscope $end
 
 $scope module nand_a_b $end
 $var wire 1 > in1 $end
 $var wire 1 N in2 $end
-$var wire 1 J! out $end
+$var wire 1 B! out $end
 $upscope $end
 
 $scope module nand_cin_a_xor_b $end
-$var wire 1 I! in1 $end
-$var wire 1 ;! in2 $end
-$var wire 1 K! out $end
+$var wire 1 A! in1 $end
+$var wire 1 5! in2 $end
+$var wire 1 C! out $end
 $upscope $end
 
 $scope module nand_out $end
-$var wire 1 J! in1 $end
-$var wire 1 K! in2 $end
+$var wire 1 B! in1 $end
+$var wire 1 C! in2 $end
 $var wire 1 5 out $end
 $upscope $end
 $upscope $end
@@ -883,17 +851,9 @@ bx #
 b10000 <
 b100 =
 b100 b
-b100 t
-b100 (!
-b100 :!
-b1 j
-b10 f
-b1 |
-b10 x
-b1 0!
-b10 ,!
-b1 B!
-b10 >!
+b100 r
+b100 $!
+b100 4!
 b1 ;
 04
 13
@@ -921,63 +881,63 @@ z8
 0c
 0d
 1e
-1n
-1o
-0p
-0k
+1f
+1g
+0h
+0i
+1j
+1k
 1l
 1m
-1g
-1h
-1i
-0q
-1r
-1s
+1n
+0o
+1p
+1q
+0s
+0t
 0u
 0v
-0w
-0"!
-1#!
-1$!
+1w
+1x
+1y
+1z
+1{
+0|
 1}
 1~
 1!!
-0y
-1z
-1{
+1"!
+1#!
 1%!
-1&!
-1'!
+0&!
+0'!
+1(!
 1)!
-0*!
-0+!
-14!
-15!
-16!
+1*!
+1+!
+1,!
+1-!
+0.!
+0/!
+10!
 11!
 12!
-13!
-0-!
-0.!
-1/!
+03!
+15!
+16!
 17!
-18!
+08!
 09!
+1:!
 1;!
 1<!
-1=!
-0F!
-0G!
-1H!
-1C!
-1D!
-0E!
+0=!
+1>!
 1?!
-1@!
+0@!
 0A!
-0I!
-1J!
-1K!
+1B!
+1C!
 1^
 1]
 0\
@@ -1036,46 +996,46 @@ b10 ;
 1D
 0@
 1?
+0>!
 0?!
-0@!
-01!
-02!
-1y
-1k
-0n
-0o
-1-!
+0+!
+0,!
+1|
+1i
+0f
+0g
 1.!
-0%!
-1q
+1/!
+0!!
+1o
 11
 0-
-0)!
+0%!
 1*
 14
-1p
+1h
 03
-0m
+0k
 1.
-1*!
+1&!
 0+
 1&
-1A!
+1@!
 0*
-0/!
+00!
 1d
 1)
-19!
+13!
 0_
 02
-0i
-1)!
+0n
+1%!
 0)
-09!
+03!
 1c
 0(
 01
-0s
+0q
 1_
 1(
 1a
@@ -1104,80 +1064,80 @@ b11 ;
 0A
 0?
 1>
-1I!
+1A!
+1>!
 1?!
-1@!
-1F!
-1G!
-11!
-12!
-0C!
-07!
-04!
-1"!
-0q
-1n
-1o
+18!
+19!
+1+!
+1,!
+0;!
+01!
+0(!
+1v
+0o
+1f
+1g
 0e
 04
-0p
+0h
 11
-1s
+1q
 00
-0$!
+0x
 0,
 1)
-19!
+13!
 1'
-1E!
-0*!
-1+
-0=!
-0(
-0H!
-0;!
-0&
-0A!
-1;!
 1=!
+0&!
+1+
+07!
+0(
+0:!
+05!
+0&
+0@!
+15!
+17!
 1*
-1/!
-0<!
+10!
+06!
 0_
-1w
+1u
 0a
 1e
 10
-1$!
+1x
 0/
-0!!
+0{
 1(
-1H!
+1:!
 1&
-1A!
-0)!
+1@!
+0%!
 0%
-0K!
+0C!
 15
 0)
-0;!
-0=!
-1v
-0w
+05!
+07!
+1t
+0u
 1/
-1!!
+1{
 0.
-0{
+0~
 0'
 1%
-1K!
+1C!
 05
-1u
-0v
+1s
+0t
 1.
-1{
+1~
 1-
-0u
+0s
 0-
 #201
 0:
@@ -1205,41 +1165,41 @@ b100 ;
 1E
 1B
 1?
+0>!
 0?!
-0@!
-17!
-05!
-1q
-0I!
-0J!
-1C!
-01!
-0g
-0h
+11!
+0)!
+1o
+0A!
+0B!
+1;!
+0+!
+0l
+0m
 12
-1i
+1n
 0+
 1'
 15
 0%
 01
-0s
-1+!
+0q
+1'!
 1)
-1;!
+15!
 0&
 1%
 1+
 1a
 00
-0$!
-1w
-0/
-0!!
-1v
-0.
-0{
+0x
 1u
+0/
+0{
+1t
+0.
+0~
+1s
 1-
 #350
 09
@@ -1266,50 +1226,50 @@ b101 ;
 0B
 1A
 0>
-1I!
-1J!
-0F!
-0G!
-07!
-02!
-0&!
-0-!
-0.!
+1A!
+1B!
+08!
+09!
+01!
+0,!
 0"!
-0q
-0r
-0k
+0.!
+0/!
+0v
+0o
+0p
+0i
 13
-1m
+1k
 11
-1s
+1q
 10
-1$!
-1)!
+1x
+1%!
 0*
 1`
-1*!
-1=!
+1&!
+17!
 0(
 05
 0%
-0K!
+0C!
 15
 0'
-0E!
+0=!
 1*
 1,
-0w
+0u
 0d
 02
 1/
-1!!
-1<!
-1&
-0v
-1.
 1{
-0u
+16!
+1&
+0t
+1.
+1~
+0s
 0-
 #450
 09
@@ -1341,38 +1301,38 @@ b110 ;
 0?
 0^
 14
-1p
-0}
-1k
-1@!
-1G!
-12!
-15!
+1h
 0y
-0z
-1r
+1i
+1?!
+19!
+1,!
+1)!
+0|
+0}
+1p
 0a
-1u
+1s
 0.
-0+!
-0*!
-0=!
-0;!
+0'!
+0&!
+07!
+05!
 03
-0m
+0k
 0/
 0e
 13
-1m
+1k
 1%
-1K!
+1C!
 1'
-1E!
+1=!
 0*
 0+
 1-
 00
-0<!
+06!
 05
 0&
 #550
@@ -1403,53 +1363,53 @@ b111 ;
 1A
 1?
 1>
-0@!
-0G!
-02!
-14!
-0~
-0n
-0o
-0C!
-0D!
-1-!
+0?!
+09!
+0,!
+1(!
+0z
+0f
+0g
+0;!
+0<!
 1.!
-1%!
-1&!
+1/!
+1!!
 1"!
+1v
 10
 0`
 0-
-0'!
-0)!
+0#!
+0%!
 1*
-1<!
+16!
 0'
 1e
 04
-1v
-1*!
-1=!
-1;!
+1t
+1&!
+17!
+15!
 0%
-0K!
+0C!
 1'
 0*
-0/!
+00!
 1.
 03
-0m
+0k
 1&
 0)
 1`
 0,
-06!
+0*!
 1d
-1)!
+1%!
 15
 1)
 12
-1+!
+1'!
 1+
 #650
 09
@@ -1475,76 +1435,76 @@ b1000 ;
 0C
 1B
 0@
-1C!
-1D!
-08!
-0-!
+1;!
+1<!
+02!
+0.!
+1|
+1}
 1y
 1z
-1}
-1~
-1q
-0k
-0l
-1F!
-1G!
-11!
-12!
-04!
-05!
-0%!
-0&!
-1g
-1h
-1n
 1o
+0i
+0j
+18!
+19!
+1+!
+1,!
+0(!
+0)!
+0!!
+0"!
+1l
+1m
+1f
+1g
 0e
 14
 0c
 02
-0i
+0n
 1-
-1'!
+1#!
 1,
-16!
-0*!
+1*!
+0&!
 0+
-03!
-0=!
+0-!
+07!
 1(
-1m
-0v
+1k
+0t
 1/
-0u
-1/!
+0s
+10!
 1_
-0<!
+06!
 0&
 0(
-0H!
-0)!
+0:!
+0%!
 0-
-1*!
+1&!
 1c
 01
-0s
+0q
 1*
 0)
-1=!
+17!
 0'
-0E!
+0=!
 1a
 00
-0$!
-1<!
+0x
+16!
 1&
-1w
-0/
-0!!
-1v
-0.
-0{
 1u
+0/
+0{
+1t
+0.
+0~
+1s
 1-
 #750
 09
@@ -1573,38 +1533,38 @@ b1001 ;
 0E
 1@
 0>
-0I!
-0y
-0z
-1-!
-01!
-02!
-15!
-0"!
-1l
+0A!
+0|
+0}
+1.!
+0+!
+0,!
+1)!
+0v
+1j
 0d
 10
-1$!
-0+!
-13!
+1x
+0'!
+1-!
 0*
-0/!
+00!
 1.
-1{
+1~
 1%
-1K!
+1C!
 05
-1)!
-0w
+1%!
+0u
 12
-1i
+1n
 0c
 1/
-1!!
+1{
 1)
-0v
+0t
 11
-1s
+1q
 0a
 0.
 00
@@ -1635,47 +1595,47 @@ b1010 ;
 0?
 1^
 04
-0p
-1?!
-1@!
-1"!
-0g
 0h
-0n
+1>!
+1?!
+1v
+0l
+0m
+0f
+0g
+0.!
+1,!
+1!!
+1"!
+1}
+0y
+0z
 0o
-0-!
-12!
-1%!
-1&!
-1z
-0}
-0~
-0q
-0r
+0p
 1a
 01
-1v
+1t
 0/
-0u
+0s
 0`
-0*!
-1/!
+0&!
+10!
 14
-1p
+1h
 1c
 02
-0;!
+05!
 0&
-0A!
+0@!
 1e
 13
-1;!
+15!
 11
-0)!
+0%!
 0,
 1.
-0$!
-1w
+0x
+1u
 0)
 1/
 #950
@@ -1711,68 +1671,68 @@ b1011 ;
 1?
 0^
 04
-02!
-0%!
-1y
-0"!
-1q
-1r
-0l
-1I!
-0F!
-18!
-1-!
-14!
-1}
-1~
-1h
-1n
+0,!
+0!!
+1|
+0v
 1o
+1p
+0j
+1A!
+08!
+12!
+1.!
+1(!
+1y
+1z
+1m
+1f
+1g
 0e
 14
 0c
-0v
+0t
 0/
-0!!
+0{
 1,
 1*
 0_
-1H!
+1:!
 0%
-0K!
+0C!
 1d
 0a
-1$!
+1x
 0-
-1*!
+1&!
 0*
-0/!
-0w
+00!
+0u
 12
 15
-0=!
-1v
+07!
+1t
 03
 0.
-0{
+0~
 1'
-1E!
+1=!
 1/
-1!!
-1)!
+1{
+1%!
 1)
-0v
-0<!
-1u
+0t
+06!
+1s
 1-
 1&
-1A!
+1@!
 1.
-1{
-0u
-0;!
+1~
+0s
+05!
 1%
-1K!
+1C!
 0-
 05
 #1050
@@ -1799,34 +1759,34 @@ b1100 ;
 0?
 1^
 04
-0p
-04!
-05!
+0h
+0(!
+0)!
+0|
+1i
+1j
+0f
+0A!
+1,!
+1!!
 0y
-1k
-1l
-0n
-0I!
-12!
-1%!
-0}
-0~
-1v
+0z
+1t
 0/
 1-
-0*!
+0&!
 0%
 14
-1p
+1h
 0d
 13
-1+!
+1'!
 0,
 1+
 02
 1*
-1/!
-0)!
+10!
+0%!
 0)
 #1150
 09
@@ -1860,38 +1820,38 @@ b1101 ;
 1C
 1B
 1A
-0G!
-08!
-11!
-0#!
-1g
-0k
-0l
-1I!
-0?!
-0C!
-0D!
-15!
-1~
-0q
-1n
+09!
+02!
+1+!
+0w
+1l
+0i
+0j
+1A!
+0>!
+0;!
+0<!
+1)!
+1z
+0o
+1f
 04
-0p
+0h
 01
-0v
-0+!
-1<!
+0t
+0'!
+16!
 0'
 1%
 1d
 03
-1w
+1u
 1_
-1=!
+17!
 1'
 1(
 1/
-0i
+0n
 0.
 1e
 13
@@ -1923,63 +1883,63 @@ b1110 ;
 0@
 1?
 1>
-0I!
-0J!
-0@!
-17!
-18!
-0%!
-0z
+0A!
+0B!
+0?!
+11!
+12!
+0!!
+0}
+0l
+0f
 0g
-0n
-0o
-1D!
-0-!
+1<!
 0.!
-14!
-1}
-1"!
-1#!
-1q
+0/!
+1(!
+1y
+1v
+1w
+1o
 01
-0s
-0w
+0q
+0u
 10
 1,
-1)!
+1%!
 0*
-0<!
+06!
 14
-1p
+1h
 12
-1i
-1u
+1n
+1s
 0_
-1;!
+15!
 15
 0(
 0c
 0&
-09!
+03!
 1a
 00
-0$!
+0x
 1_
 11
-1s
+1q
 0a
 1(
-1w
+1u
 0/
-0!!
+0{
 10
-1$!
-0w
-1v
+1x
+0u
+1t
 1.
 1/
-1!!
-0v
+1{
+0t
 0.
 #1350
 09
@@ -2007,54 +1967,54 @@ b1111 ;
 1B
 0A
 0>
-1F!
-1G!
-07!
-08!
-1-!
-1.!
-0"!
-1J!
-1?!
-1@!
-1C!
+18!
+19!
 01!
 02!
-04!
-1%!
-1z
+1.!
+1/!
+0v
+1B!
+1>!
+1?!
+1;!
+0+!
+0,!
+0(!
+1!!
+1}
+1l
 1g
-1o
 0e
 02
-0i
-0u
+0n
+0s
 0,
-1*!
+1&!
 0+
 0'
-0E!
-0;!
+0=!
+05!
 1&
 05
 00
-0)!
-19!
-0=!
+0%!
+13!
+07!
 0(
-0H!
-1=!
+0:!
+17!
 0%
-1<!
-0/!
+16!
+00!
 1c
 03
 01
-0s
-1)!
+0q
+1%!
 0&
-0A!
-1;!
+0@!
+15!
 1)
 1a
 10
@@ -2090,39 +2050,39 @@ b10000 ;
 1@
 0^
 04
-17!
-18!
-1y
-0o
-0?!
-0@!
-0-!
 11!
 12!
-14!
+1|
+0g
+0>!
+0?!
+0.!
+1+!
+1,!
+1(!
 1,
-0*!
+0&!
 1+
-1/!
+10!
 1&
-1A!
+1@!
 1e
 1.
 0_
 0)
-09!
+03!
 1_
 13
-0)!
+0%!
 1)
-19!
+13!
 0_
 1(
-1H!
-0=!
+1:!
+07!
 1'
-1E!
-0<!
+1=!
+06!
 0&
 #1550
 09
@@ -2147,47 +2107,47 @@ b10001 ;
 0A
 0@
 0?
+1>!
 1?!
-1@!
-0C!
-0F!
-07!
+0;!
 08!
-1-!
-04!
-1"!
-0q
-0r
-1k
-1l
-1o
+01!
+02!
+1.!
+0(!
+1v
+0o
+0p
+1i
+1j
+1g
 0e
 0d
 11
-1s
+1q
 00
-0$!
+0x
 0,
 1*
 1_
 0)
 0'
-0;!
+05!
 1&
 0%
-1w
+1u
 12
-1i
+1n
 0c
 0/
-0!!
-1v
+0{
+1t
 01
 0.
-0{
-1u
+0~
+1s
 0-
-0'!
+0#!
 1`
 1,
 #1650
@@ -2220,47 +2180,47 @@ b10010 ;
 0B
 1@
 1?
-0D!
-05!
-1I!
-1F!
+0<!
+0)!
+1A!
 18!
-0-!
-0}
-0"!
-1q
-1r
-0g
-1n
+12!
+0.!
+0y
+0v
+1o
+1p
+0l
+1f
 14
 02
 0a
 11
-1$!
+1x
 1/
-1!!
+1{
 0*
 0_
 1%
-1+!
-1<!
+1'!
+16!
 0&
-0A!
+0@!
 0+
-03!
-0v
-0w
+0-!
+0t
+0u
 0/
 1.
-1{
-1*!
-1;!
+1~
+1&!
+15!
 0%
-0K!
+0C!
 1*
-0u
+0s
 1-
-1'!
+1#!
 15
 0`
 0,
@@ -2291,62 +2251,62 @@ b10011 ;
 1>
 1^
 04
+0h
+08!
+09!
+0+!
+0,!
+1y
+1v
+0i
+1;!
+1<!
+1(!
+1)!
+0o
 0p
-0F!
-0G!
-01!
-02!
-1}
-1"!
-0k
-1C!
-1D!
-14!
-15!
-0q
-0r
 1a
 01
-0+!
+0'!
 1,
-0<!
+06!
 1'
 03
 1/
-13!
-1=!
+1-!
+17!
 0(
 1e
 13
 0'
-0E!
+0=!
 1&
-1A!
-0$!
-1w
-0;!
-1<!
-0&
-0A!
-1%
-1K!
-0/
-0!!
-1v
-05
-1;!
-0%
-0K!
-0.
-0{
+1@!
+0x
 1u
+05!
+16!
+0&
+0@!
+1%
+1C!
+0/
+0{
+1t
+05
+15!
+0%
+0C!
+0.
+0~
+1s
 15
 0-
-0'!
+0#!
 1`
 0,
-06!
-1+!
+0*!
+1'!
 1+
 #1850
 09
@@ -2381,39 +2341,39 @@ b10100 ;
 0>
 0^
 14
-1p
-1F!
-1G!
-1-!
-0%!
-0&!
-0h
-0l
+1h
+18!
+19!
+1.!
+0!!
+0"!
+0m
+0j
+0>!
 0?!
-0@!
-0C!
-0D!
-17!
-12!
-04!
-05!
-1r
-0n
+0;!
+0<!
+11!
+1,!
+0(!
+0)!
+1p
+0f
 04
 0a
 1,
-16!
-0*!
+1*!
+0&!
 1)
 1'
-1E!
+1=!
 1&
-1A!
+1@!
 1d
 1c
 1-
-1'!
-0=!
+1#!
+07!
 1(
 0e
 03
@@ -2421,14 +2381,14 @@ b10100 ;
 11
 12
 10
-1$!
-0w
-1/
-1!!
-0v
-1.
-1{
+1x
 0u
+1/
+1{
+0t
+1.
+1~
+0s
 0-
 #1950
 09
@@ -2457,43 +2417,43 @@ b10101 ;
 0?
 1^
 14
+1>!
 1?!
-1@!
-11!
-14!
-15!
-0r
-1k
-1l
-1D!
-1%!
-1&!
+1+!
+1(!
+1)!
+0p
+1i
+1j
+1<!
+1!!
+1"!
+0|
 0y
-0}
-0~
-1g
-1h
+0z
+1l
+1m
 0c
 02
-0i
-1v
+0n
+1t
 0/
 0`
 1-
-0<!
+06!
 0d
 13
 1a
-0+!
-0;!
+0'!
+05!
 1%
-1K!
+1C!
 00
-0$!
+0x
 12
-1i
+1n
 01
-1w
+1u
 05
 1/
 #2050
@@ -2526,87 +2486,87 @@ b10110 ;
 1A
 1@
 1>
-1C!
+1;!
+1|
+0g
 1y
-0o
-1}
-1~
-1r
-0k
+1z
+1p
+0i
 03
 0a
-0v
+0t
 0/
-0!!
+0{
 1e
 1'
 13
-1v
+1t
 10
-1$!
-0w
+1x
+0u
 0.
-0{
-1u
+0~
+1s
 1/
-1!!
-0v
+1{
+0t
 0-
-0'!
+0#!
 1`
 1.
-1{
-0u
+1~
+0s
 0,
-06!
-1+!
-1-
+0*!
 1'!
+1-
+1#!
 0`
 0+
-03!
-1*!
+0-!
+1&!
 1,
-16!
-0+!
+1*!
+0'!
 0*
-0/!
-1)!
+00!
+1%!
 1+
-13!
-0*!
+1-!
+0&!
 0)
-09!
+03!
 1_
 1*
-1/!
-0)!
+10!
+0%!
 0(
-0H!
-1=!
+0:!
+17!
 1)
-19!
+13!
 0_
 0'
-0E!
-1<!
-1(
-1H!
 0=!
+16!
+1(
+1:!
+07!
 0&
-0A!
-1;!
+0@!
+15!
 1'
-1E!
-0<!
+1=!
+06!
 0%
-0K!
+0C!
 15
 1&
-1A!
-0;!
+1@!
+05!
 1%
-1K!
+1C!
 05
 #2150
 09
@@ -2641,30 +2601,30 @@ b10111 ;
 0>
 0^
 04
-0I!
-07!
-0-!
+0A!
+01!
+0.!
+0|
+0p
+0j
+0;!
+0<!
+0!!
 0y
-0r
+0z
+0v
+0w
 0l
-0C!
-0D!
-0%!
-0}
-0~
-0"!
-0#!
-0g
-1n
-1o
+1f
+1g
 0e
 14
 02
-1w
+1u
 00
-1v
+1t
 0-
-1<!
+16!
 0'
 1d
 1a
@@ -2674,9 +2634,9 @@ b10111 ;
 10
 12
 0&
-0A!
+0@!
 03
-1;!
+15!
 1%
 #2250
 09
@@ -2707,58 +2667,58 @@ b11000 ;
 0@
 1^
 04
-0p
-08!
-01!
+0h
 02!
-04!
-05!
-1}
-1~
-1g
-1I!
-1D!
-1%!
+0+!
+0,!
+0(!
+0)!
 1y
-1r
+1z
 1l
-0n
-0o
-14
+1A!
+1<!
+1!!
+1|
 1p
+1j
+0f
+0g
+14
+1h
 0d
 0a
 0.
-0{
+0~
 1-
-0<!
+06!
 0%
-0K!
-0v
+0C!
+0t
 0/
-0!!
-1+!
+0{
+1'!
 0,
-1*!
+1&!
 1_
 1e
 13
 0(
-0H!
+0:!
 1*
-1v
+1t
 15
 1&
-1A!
-1u
+1@!
+1s
 00
 0-
-0'!
-0;!
-1=!
+0#!
+05!
+17!
 1'
 1%
-1K!
+1C!
 1`
 1,
 05
@@ -2789,70 +2749,70 @@ b11001 ;
 1C
 0B
 0?
-17!
-18!
-1-!
-0y
-0z
-1k
-1C!
-0%!
-1#!
-1q
+11!
+12!
+1.!
+0|
+0}
+1i
+1;!
+0!!
+1w
 1o
+1g
 0e
 11
-0w
+0u
 1-
-1'!
+1#!
 0'
-0E!
+0=!
 1.
-1{
+1~
 0*
-0/!
+00!
 0_
 1)
 1(
-1H!
-1)!
-1<!
+1:!
+1%!
+16!
 0`
 1/
-1!!
-0v
+1{
+0t
 0,
 0&
-0A!
+0@!
 0)
-09!
-0=!
+03!
+07!
 1'
-1E!
+1=!
 1_
-1;!
+15!
 0.
 0%
-0K!
+0C!
 0(
-0H!
-0<!
+0:!
+06!
 1&
-1A!
-1=!
+1@!
+17!
 15
 0'
-0E!
-0;!
+0=!
+05!
 1%
-1K!
-1<!
+1C!
+16!
 0&
-0A!
+0@!
 05
-1;!
+15!
 0%
-0K!
+0C!
 15
 #2450
 09
@@ -2881,67 +2841,67 @@ b11010 ;
 0C
 1@
 1>
-0I!
-0J!
-0C!
-0D!
-0-!
-0&!
-1y
-1z
-0q
-0r
-1n
-0?!
-0F!
-12!
-1"!
-10
-0*!
-1(
-1H!
-1&
-1A!
-04
+0A!
+0B!
+0;!
+0<!
+0.!
+0"!
+1|
+1}
+0o
 0p
+1f
+0>!
+08!
+1,!
+1v
+10
+0&!
+1(
+1:!
+1&
+1@!
+04
+0h
 1a
 01
-0u
+0s
 1.
 1`
-1/!
+10!
 1'
-1E!
+1=!
 1%
-1K!
-0)!
+1C!
+0%!
 1,
 0-
 00
-0$!
+0x
 1e
-0;!
-0=!
+05!
+07!
 0'
 0%
 03
-0m
-1w
+0k
+1u
 1)
-19!
+13!
 0_
 0/
-0!!
+0{
 1d
 02
-0i
-1v
+0n
+1t
 0(
 0.
-0{
+0~
 1c
 11
-1u
+1s
 1-
 #2550
 09
@@ -2969,47 +2929,47 @@ b11011 ;
 0@
 1?
 0>
-1I!
-1J!
-1?!
-0G!
-0.!
-11!
-0"!
-0#!
-1D!
-07!
-15!
-1%!
-1&!
-0}
-0g
-0h
-12
-1i
-1/
+1A!
+1B!
+1>!
+09!
+0/!
+1+!
+0v
+0w
+1<!
+01!
+1)!
 1!!
+1"!
+0y
+0l
+0m
+12
+1n
+1/
+1{
 0`
 0-
+0#!
 0'!
-0+!
 0)
-0<!
+06!
 10
-1$!
-1)!
-1=!
+1x
+1%!
+17!
 05
 1%
 1'
 1)
 1`
-0v
+0t
 1.
-1{
-0u
+1~
+0s
 1-
-1'!
+1#!
 0`
 0,
 #2650
@@ -3038,37 +2998,37 @@ b11100 ;
 0?
 0^
 14
-1p
-0?!
-0D!
-14!
-0k
-0I!
-1-!
-1.!
-01!
-02!
-1#!
 1h
-0n
-0o
+0>!
+0<!
+1(!
+0i
+0A!
+1.!
+1/!
+0+!
+0,!
+1w
+1m
+0f
+0g
 04
 0c
-0w
-1*!
+0u
+1&!
 0+
-0)!
+0%!
 0%
 13
-1m
+1k
 1,
-1<!
+16!
 0d
 0)
-0/!
+00!
 0/
 01
-1)!
+1%!
 02
 1)
 #2750
@@ -3100,70 +3060,70 @@ b11101 ;
 0@
 1?
 1>
-0J!
-0@!
-1C!
-1D!
-1F!
-1G!
-04!
-0y
-0z
-0#!
-1g
-1k
-17!
-12!
-1r
+0B!
+0?!
+1;!
+1<!
+18!
+19!
+0(!
+0|
+0}
+0w
+1l
+1i
+11!
+1,!
+1p
 0a
-0*!
+0&!
 0)
-09!
+03!
 03
-0m
+0k
 12
-1w
 1u
+1s
 0.
 0,
-0=!
+07!
 1(
-0<!
-1;!
+06!
+15!
 15
 1%
 0&
 0-
-0'!
+0#!
 1/
 1d
 1_
 1*
-1/!
+10!
 00
-0)!
+0%!
 0(
-0H!
+0:!
 02
-0i
+0n
 1`
 1,
 1c
-1=!
+17!
 1)
-19!
+13!
 0_
 0'
-0E!
-11
-1<!
-1(
-1H!
 0=!
+11
+16!
+1(
+1:!
+07!
 1&
 1'
-1E!
-0<!
+1=!
+06!
 0&
 #2850
 09
@@ -3195,61 +3155,61 @@ b11110 ;
 1A
 1@
 0>
-1I!
-1J!
-07!
-08!
-0-!
-0.!
+1A!
+1B!
+01!
 02!
-14!
-1y
-1z
-1q
-1#!
+0.!
+0/!
+0,!
+1(!
+1|
+1}
 1o
+1w
+1g
 0e
-0w
-01
-0s
 0u
+01
+0q
+0s
 1.
 0,
-06!
-1*!
-1)!
+0*!
+1&!
+1%!
 1_
 05
 0%
-0K!
+0C!
 15
 0(
-0H!
-1+!
-1-
+0:!
 1'!
+1-
+1#!
 1a
 0/
 13
-1m
+1k
 0d
 10
 0`
 1+
-1=!
+17!
 0'
-0E!
+0=!
 1,
-16!
+1*!
 12
-1i
+1n
 0c
-0+!
-1<!
+0'!
+16!
 1&
 0+
 11
-1s
+1q
 0a
 00
 #2950
@@ -3282,36 +3242,36 @@ b11111 ;
 0E
 0C
 0@
-1-!
 1.!
-0~
-0#!
-0o
-11!
-12!
-0%!
+1/!
+0z
+0w
 0g
-0h
+1+!
+1,!
+0!!
+0l
+0m
 1c
 02
 0-
-0*!
+0&!
 1+
 1e
-1w
-1v
-0)!
+1u
+1t
+0%!
 0)
 0.
-0{
+0~
 1/
 03
-0m
+0k
 01
-0s
+0q
 1a
 1d
-1u
+1s
 1-
 12
 10
@@ -3340,43 +3300,43 @@ b100000 ;
 0?
 1^
 14
-0F!
-01!
-0q
-0r
-1n
-1o
-1@!
-0C!
-18!
-0-!
-0y
-0z
-1"!
-1#!
-0w
+08!
+0+!
+0o
+0p
+1f
+1g
+1?!
+0;!
+12!
+0.!
+0|
+0}
+1v
+1w
+0u
 00
-0$!
+0x
 1.
-1{
+1~
 0*
 0_
 1'
-1E!
-0;!
+1=!
+05!
 0e
 04
-0p
+0h
 11
-1s
+1q
 0+
-1H!
-0=!
+1:!
+07!
 1e
 1%
-1K!
-0<!
-1w
+1C!
+06!
+1u
 0&
 05
 0'

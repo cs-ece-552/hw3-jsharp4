@@ -1,5 +1,5 @@
 # vsim -c mux4_1_4b_bench -lib __work 
-# Start time: 19:01:42 on Feb 15,2019
+# Start time: 21:18:06 on Feb 15,2019
 # //  ModelSim DE 10.7c Aug 17 2018Linux 4.15.0-45-generic
 # //
 # //  Copyright 1991-2018 Mentor Graphics Corporation
@@ -23,5 +23,5 @@
 run -all
 # ** Note: $finish    : mux4_1_4b_bench.v(40)
 #    Time: 3200 ns  Iteration: 0  Instance: /mux4_1_4b_bench
-# End time: 19:01:43 on Feb 15,2019, Elapsed time: 0:00:01
+# End time: 21:18:06 on Feb 15,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0

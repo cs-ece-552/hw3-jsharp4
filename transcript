@@ -1,0 +1,8 @@
+# vsim -c mux_4_1_4b -lib __work 
+# Start time: 17:42:56 on Feb 15,2019
+# ** Error: (vsim-3170) Could not find 'mux_4_1_4b'.
+#         Searched libraries:
+#             /afs/cs.wisc.edu/u/s/h/sharp-jr/private/ECE552/hw3-jsharp4/__work
+# Error loading design
+# End time: 17:42:56 on Feb 15,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

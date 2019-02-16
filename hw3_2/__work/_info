@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 d/u/s/h/sharp-jr/private/ECE552/hw3-jsharp4/hw3_2
 vclkrst
-Z1 !s110 1550286478
+Z1 !s110 1550286786
 !i10b 1
 !s100 ZzzHl;B1mbcM<UZQX`N5V1
 I;[OK`WFoPnFNCPz<4KiRE2
@@ -23,7 +23,7 @@ Z4 OP;L;10.7c;67
 r1
 !s85 0
 31
-Z5 !s108 1550286478.000000
+Z5 !s108 1550286786.000000
 !s107 xor3.v|xor2.v|rca_4b.v|rca_16b.v|rca_16b_bench.v|not1.v|nor3.v|nor2.v|nand3.v|nand2.v|fullAdder_1b.v|clkrst.v|
 Z6 !s90 +define+RANDSEED=3|-work|__work|clkrst.v|fullAdder_1b.v|nand2.v|nand3.v|nor2.v|nor3.v|not1.v|rca_16b_bench.v|rca_16b.v|rca_4b.v|xor2.v|xor3.v|
 !i113 1
@@ -210,11 +210,11 @@ R9
 vrca_4b
 R1
 !i10b 1
-!s100 <DY1ZA741^2ml^^nnoc<o3
-IOF]H>[aMbI0AF[mSd7JmL1
+!s100 2Y`Q5B@:]QHVSViSB6MZm1
+IT<ZlHniPNTmiof3;F?41f3
 R2
 R0
-w1550285624
+w1550286779
 8rca_4b.v
 Frca_4b.v
 L0 7
