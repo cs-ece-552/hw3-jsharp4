@@ -27,6 +27,6 @@ module rca_16b(A, B, C_in, S, C_out);
 	end
 	endgenerate
 
-	rca_4b rca_lsb_4(.A(A[N - 1: N - 4]), .B(B[N - 1: N - 4]), .C_in(c_out[N_4 - 2]), .C_out(C_out), .S(S[N - 1: N - 4]));
+	rca_4b rca_msb_4(.A(A[N - 1: N - 4]), .B(B[N - 1: N - 4]), .C_in(c_out[N_4 - 2]), .C_out(C_out), .S(S[N - 1: N - 4]));
 
 endmodule

@@ -14,8 +14,8 @@ module fullAdder_1b(A, B, C_in, S, C_out);
 
     // YOUR CODE HERE
 	//S output
-	xor xor_a_b(.in1(A), .in2(B), .out(w_a_xor_b));
-	xor xor_cin_a_b(.in1(C_in), .in2(w_a_xor_b), .out(S));
+	xor2 xor_a_b(.in1(A), .in2(B), .out(w_a_xor_b));
+	xor2 xor_cin_a_b(.in1(C_in), .in2(w_a_xor_b), .out(S));
 
 	//C_out output
 	nand2 nand_a_b(.in1(A), .in2(B), .out(w_nand_a_b));

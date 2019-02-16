@@ -17,7 +17,7 @@ module rca_4b(A, B, C_in, S, C_out);
 	wire c_out[N-2:0];
 
     // YOUR CODE HERE
-	fullAdder_1b adder_1b_0(.A(A[0], .B(B[0]), .C_in(C_in), .S(S[0]), .C_out(c_out[0]));
+	fullAdder_1b adder_1b_0(.A(A[0]), .B(B[0]), .C_in(C_in), .S(S[0]), .C_out(c_out[0]));
 
 	genvar i;
 	generate
@@ -26,6 +26,6 @@ module rca_4b(A, B, C_in, S, C_out);
 	end
 	endgenerate
 	
-	fullAdder_1b adder_0(.A(A[N - 1], .B(B[N - 1]), .C_in(c_out[N - 2]), .S(S[N - 1]), .C_out(C_out));
+	fullAdder_1b adder_0(.A(A[N - 1]), .B(B[N - 1]), .C_in(c_out[N - 2]), .S(S[N - 1]), .C_out(C_out));
 
 endmodule
